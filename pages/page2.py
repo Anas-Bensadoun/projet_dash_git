@@ -6,7 +6,7 @@ import plotly.express as px
 register_page(__name__, name='Page 2')
 
 # Charger les données
-df = pd.read_csv(r"C:\Users\bensa\projet_dash_git\Soccer_Football Clubs Ranking.csv")
+df = pd.read_csv("Soccer_Football Clubs Ranking.csv")
 
 # Mise en page de la page 2
 layout = html.Div([
